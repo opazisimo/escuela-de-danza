@@ -6,6 +6,11 @@ header h1 {
 	text-align: center;
 	margin: 30px;
 }
+
+h1 a {
+	text-decoration: none;
+}
+
 header nav {
 	text-align: center;
 }
@@ -80,12 +85,18 @@ header {
 
 /* instructors */
 
+.inst-title {
+	text-align: center;
+	padding-top: 50px;
+}
+
 .ins-img {
-	max-width: 230px;
+	max-width: 210px;
 	height: 180px;
 	background-size: cover !important;
 	background-repeat: no-repeat;
 	box-sizing:border-box;
+	margin: 12px;
 }
 
 .imgp1 {
@@ -103,7 +114,32 @@ header {
 .imgp4 {
 	background: url(../img/profesor_10.jpg);
 }
+.imgp5 {
+	background: url(../img/profesor_11.jpg);
+}
+
+.imgp6 {
+	background: url(../img/profesor_12.jpg);
+}
+
+.imgp7 {
+	background: url(../img/profesor_9.jpg);
+}
+
+.imgp8 {
+	background: url(../img/profesor_15.jpg);
+}
+
+.inst-cont {
+	font-size: 14px;
+}
+
+.inst-ph {
+	margin-top: 50px;
+}
+
 /* cita */
+
 .cita {
 	text-align: center;
 	font-size: 30px;
@@ -117,6 +153,7 @@ header {
 	background: url(../img/textura_2.jpg);
 	background-repeat: repeat;
 	height: 200px;
+	margin-top: 50px;
 }
 
 /*contacto */
