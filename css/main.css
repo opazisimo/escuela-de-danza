@@ -1,4 +1,34 @@
+/*header */
+
+header h1 {
+	color: #192951;
+	font-size: 20px;
+	text-align: center;
+	margin: 30px;
+}
+header nav {
+	text-align: center;
+}
+header li {
+	display: inline-block;
+}
+
+header a {
+	text-decoration: none;
+	color: rgb(83, 88, 95);
+	margin: 0px 20px 80px 20px ;
+}
+
+header {
+	padding-bottom: 30px;
+}
+
 /* studio*/
+
+.studio {
+	color: #c2c7c9; 
+	font-size: 12px;	
+}
 
 .fondostudio {	
 	background: url(../img/dance_1.jpg);
@@ -7,6 +37,28 @@
 	max-width: 100%;
 	height: 300px;
 }
+
+.studio h1 {
+	font-size: 50px;
+	margin-bottom: 15px;
+	position: relative;
+	left: 80px;
+	top: 50px;
+}
+
+.studio-cont {
+	width: 180px;
+	position: relative;
+	left: 80px;
+	top: 50px;
+}
+
+#b-inscribete {
+	background-color: #00061b;
+	padding: 10px 30px;
+	border-radius: 3px;
+}
+
 /* oferta */
 
 .ofertabg {
@@ -16,36 +68,69 @@
 }
 
 .ofertadc {
-
+	margin: 0 auto;
+	text-align: center;
 }
 .ofertadc img {
 	width: 100px;
+}
 
+.ofertadc p {
+	line-height: 25px;
+	font-size: 16px;
+	padding-top: 50px;
+}
+
+#b-odc {
+	background-color: #062452;
+	padding: 15px 60px;
+	border-radius: 3px;
+	font-size: 12px;
 }
 
 /* instructores */
 
+.b-inst {
+	text-align: center;
+	z-index: 1;
+}
 .inst-1 {
 	background: url(../img/instructor_4.jpg);
-	height: 250px;
+	height: 220px;
 	background-size: cover;
 	background-repeat: no-repeat;
 	max-width: 100%;
 	border: 1px solid #192951;
+	z-index: -1;
 }
 
 .inst-2 {
 	background: url(../img/profesor_9.jpg);
-	height: 250px;
+	height: 220px;
 	background-size: cover;
 	background-repeat: no-repeat;
 	max-width: 100%;
 	border: 1px solid #192951;
+	z-index: -1;
 }
-
+#b-ni {
+	background-color: #062452;
+	padding: 20px 100px;
+	border-radius: 1px;
+	z-index: 10;
+	position: relative;
+	top: 180px;
+	right: 235px;
+}
 /* cita */
 .cita {
 	text-align: center;
+	font-size: 30px;
+}
+
+.cita i {
+	position: relative;
+	top: 60px;
 }
 .citabg {
 	background: url(../img/textura_2.jpg);
@@ -56,7 +141,17 @@
 /*visitanos */
 
 .visit {
-	background-color: #192951;
+	background-color: #062452;
+	padding-bottom: 50px;
+	padding-top: 50px;
+	color: white;
+	font-size: 12px;
+}
+
+.visit-cont {
+	width: 350px;
+	position: relative;
+	left: 60px;
 }
 
 /*contacto */
@@ -68,7 +163,68 @@
 
 }
 
+.contacto h1 {
+	font-size: 25px;
+	color: #192951;
+	margin-top: 50px;
+	margin-bottom: 30px;
+	position: relative;
+	left: 20px;
+
+}
+
+.imp1 {
+	width: 400px;
+	height: 25px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	border: 1px solid #d8d8d8;
+}
+
+.imp2 {
+	width: 400px;
+	height: 100px;
+	margin-bottom: 25px;
+	margin-top: 5px;
+	border: 1px solid #d8d8d8;
+
+}
+
+#enviar {
+	background-color: #062452;
+	padding: 10px 178px; 
+	border-radius: 3px;
+}
+
+.contact-cont {
+	position: relative;
+	left: 70px;
+}
+
+.fa {
+	position: relative;
+	left: 30px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: #393939;
+}
+
+form {
+	float: left;
+}
+.icons {
+	float: left;
+}
+/* footer */
 footer {
 	background-color:  #192951;
 	height: 50px;
+	color: white;
+	font-size: 12px;
+}
+
+footer p {
+	position: relative;
+	left: 20px;
+	top: 30px;
 }
