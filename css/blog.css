@@ -1,1 +1,159 @@
-/* Inserta tu codigo aqui */
+/*header */
+
+header h1 {
+	color: #192951;
+	font-size: 20px;
+	text-align: center;
+	margin: 30px;
+}
+header nav {
+	text-align: center;
+}
+header li {
+	display: inline-block;
+}
+
+header a {
+	text-decoration: none;
+	color: rgb(83, 88, 95);
+	margin: 0px 20px 80px 20px ;
+}
+
+header {
+	padding-bottom: 30px;
+}
+
+/* blog */
+
+.blogbg {
+	background-color: #f4f4f4;
+	padding-top: 50px;
+	padding-bottom: 70px;
+
+}
+
+.blogbg h3 {
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.blog-cont {
+	background-color: #dde0e1; 
+	height: 160px;
+	font-size: 10px;
+	padding: 15px 15px;
+}
+
+.blog-cont i {
+	color: #c8cacb;
+	line-height: 26px;
+
+}
+
+#b-vm {
+	padding: 10px 50px;
+	background-color: #042450;
+	color: white;
+	position: relative;
+	top: 25px;
+	border-radius: 2px;
+}
+
+.img-blog-cont {
+	width: 185px;
+	height: 160px;
+	background-size: cover !important;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.rblog {
+	margin-bottom: 25px;
+	margin-top: 25px;
+}
+
+.ibc1 {
+	background: url(../img/blog1.jpg);
+}
+.ibc2 {
+	background: url(../img/profesor_5.jpg);
+}
+.ibc3 {
+	background: url(../img/instructor_1.jpg);
+}
+
+
+/*contacto */
+
+.contactobg {
+	background: url(../img/shoes_1.jpg) no-repeat right;
+	max-width: 100%;
+	height: 450px;
+
+}
+
+.contacto h1 {
+	font-size: 25px;
+	color: #192951;
+	margin-top: 50px;
+	margin-bottom: 30px;
+	position: relative;
+	left: 20px;
+
+}
+
+.imp1 {
+	width: 400px;
+	height: 25px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	border: 1px solid #d8d8d8;
+}
+
+.imp2 {
+	width: 400px;
+	height: 100px;
+	margin-bottom: 25px;
+	margin-top: 5px;
+	border: 1px solid #d8d8d8;
+
+}
+
+#enviar {
+	background-color: #062452;
+	padding: 10px 178px; 
+	border-radius: 3px;
+}
+
+.contact-cont {
+	position: relative;
+	left: 70px;
+}
+
+.fa {
+	position: relative;
+	left: 30px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: #393939;
+}
+
+form {
+	float: left;
+}
+.icons {
+	float: left;
+}
+/* footer */
+footer {
+	background-color:  #192951;
+	height: 50px;
+	color: white;
+	font-size: 12px;
+}
+
+footer p {
+	position: relative;
+	left: 20px;
+	top: 30px;
+}
