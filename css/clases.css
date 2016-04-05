@@ -1,1 +1,162 @@
-/* Inserta tu codigo aqui */
+/*header */
+
+header h1 {
+	color: #192951;
+	font-size: 20px;
+	text-align: center;
+	margin: 30px;
+}
+header nav {
+	text-align: center;
+}
+header li {
+	display: inline-block;
+}
+
+header a {
+	text-decoration: none;
+	color: rgb(83, 88, 95);
+	margin: 0px 20px 80px 20px ;
+}
+
+header {
+	padding-bottom: 30px;
+}
+
+
+/* oferta de clases */
+
+.ofertabg {
+	background-color: #f4f4f4;
+	padding-top: 50px;
+	text-align: center;
+
+}
+
+.ofertabg h3 {
+	margin-bottom: 30px;
+}
+
+.of-cont {
+	max-width: 230px;
+	height: 280px;
+	background-size: cover !important;
+	background-repeat: no-repeat;
+	box-sizing:border-box;
+	margin: 10px;
+	background-position: center !important;
+
+}
+
+.of1 {
+	background: url(../img/dance_12.jpg);
+}
+.of2 {
+	background: url(../img/breakdance.jpg);
+}
+.of3 {
+	background: url(../img/lirical-jazz.jpg);
+}
+.of4 {
+	background: url(../img/arabe.jpg);
+}
+.of5 {
+	background: url(../img/little.jpg);
+}
+.of6 {
+	background: url(../img/yoga.jpg);
+}
+
+
+.semi-k {
+	width: 200px;
+	height: 100px;
+	background-color: black;
+	opacity: 0.5;
+	z-index: 1;
+}
+
+.semi-k-cont {
+	width: 200px;
+	height: 100px;
+	color: white;
+	font-size: 12px;
+	position: relative;
+	top: 110px;
+	z-index: 2;
+}
+
+/*contacto */
+
+.contactobg {
+	background: url(../img/shoes_1.jpg) no-repeat right;
+	max-width: 100%;
+	height: 450px;
+
+}
+
+.contacto h1 {
+	font-size: 25px;
+	color: #192951;
+	margin-top: 50px;
+	margin-bottom: 30px;
+	position: relative;
+	left: 20px;
+
+}
+
+.imp1 {
+	width: 400px;
+	height: 25px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	border: 1px solid #d8d8d8;
+}
+
+.imp2 {
+	width: 400px;
+	height: 100px;
+	margin-bottom: 25px;
+	margin-top: 5px;
+	border: 1px solid #d8d8d8;
+
+}
+
+#enviar {
+	background-color: #062452;
+	padding: 10px 178px; 
+	border-radius: 3px;
+}
+
+.contact-cont {
+	position: relative;
+	left: 70px;
+}
+
+.fa {
+	position: relative;
+	left: 30px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: #393939;
+}
+
+form {
+	float: left;
+}
+.icons {
+	float: left;
+}
+/* footer */
+footer {
+	background-color:  #192951;
+	height: 50px;
+	color: white;
+	font-size: 12px;
+}
+
+footer p {
+	position: relative;
+	left: 20px;
+	top: 30px;
+}
